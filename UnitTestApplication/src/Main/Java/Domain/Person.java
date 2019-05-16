@@ -1,3 +1,5 @@
+package Domain;
+
 public class Person {
 
     private String name;
