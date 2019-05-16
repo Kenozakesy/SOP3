@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28f07bec-1af9-424c-ad5e-5689b773b915" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Main/Java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Java/Domain/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Java/ControllerTest/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Test/Java/ControllerTest/PersonTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="28f07bec-1af9-424c-ad5e-5689b773b915" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main/Test/Java/ControllerTest/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,15 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/sonarIssues.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -295,15 +284,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558007606632</updated>
-      <workItem from="1558007608405" duration="798000" />
+      <workItem from="1558007608405" duration="1415000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PersonTest_constructorTest - 2019.05.16 at 14h 08m 01s.xml">
+      <configuration name="PersonTest.constructorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerTest_in_UnitTestApplication - 2019.05.16 at 14h 08m 15s.xml">
+      <configuration name="ControllerTest in UnitTestApplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest_constructorTest - 2019.05.16 at 14h 09m 33s.xml">
+      <configuration name="PersonTest.constructorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest_constructorTest - 2019.05.16 at 14h 09m 45s.xml">
+      <configuration name="PersonTest.constructorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest_constructorTest - 2019.05.16 at 14h 09m 53s.xml">
+      <configuration name="PersonTest.constructorTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="798000" />
+    <option name="totallyTimeSpent" value="1415000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -313,11 +319,12 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25033557" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25033557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Application Servers" />
       <window_info anchor="bottom" id="Version Control" />
@@ -326,7 +333,7 @@
       <window_info anchor="bottom" id="SonarQube" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329429" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -356,8 +363,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Test/Java/ControllerTest/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
