@@ -13,7 +13,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                mail bcc: '', body: 'test', cc: '', from: '', replyTo: '', subject: 'test', to: 'thezemmer@gmail.com'
+                echo 'test'
             }
         }       
     }
