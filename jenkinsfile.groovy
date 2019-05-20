@@ -8,7 +8,7 @@ pipeline {
         }
         stage('build') {
             steps {
-                git 'https://github.com/Kenozakesy/SOP3/tree/master/UnitTestApplication'
+                git 'https://github.com/Kenozakesy/SOP3.git'
             }     
         }
         stage('test') {
