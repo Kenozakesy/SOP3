@@ -8,8 +8,23 @@ pipeline {
         }
         stage('build') {
             steps {
+                withMaven(maven : 'maven_3_5_0') {
+                    sh 'mvn clean compile'
+                }
+            }
+            steps {
                 sh 'mvn --version'
             }
+        }
+        stage('test') {
+            steps {
+                echo 'do testing here'
+            }
+        }       
+    }
+    post { 
+        always { 
+            echo 'I will always say Hello again!'
         }
     }
 }
