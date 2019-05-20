@@ -9,12 +9,11 @@ pipeline {
         stage('build') {
             steps {
                 sh 'mvn --version'
-            }
-         
+            }     
         }
         stage('test') {
             steps {
-                echo 'do testing here'
+                mail bcc: '', body: 'test', cc: '', from: '', replyTo: '', subject: 'test', to: 'thezemmer@gmail.com'
             }
         }       
     }
