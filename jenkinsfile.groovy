@@ -9,7 +9,6 @@ pipeline {
         stage('build') {
             steps {
                 git 'https://github.com/Kenozakesy/SOP3.git'
-                bat 'mvn verify'
             }     
         }
         stage('test') {
