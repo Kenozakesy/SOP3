@@ -8,7 +8,7 @@ pipeline {
         }
         stage('build') {
             steps {
-                sh 'printenv'
+                sh 'mvn --version'
             }     
         }
         stage('test') {
@@ -19,7 +19,7 @@ pipeline {
     }
     post { 
         always { 
-            junit 'build/reports/**/*.xml'
+            echo 'I will always run'
         }
         success {
             echo 'This will run only if successful'
