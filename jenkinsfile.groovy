@@ -8,7 +8,7 @@ pipeline {
         }
         stage('build') {
             steps {
-                sh 'mvn --version'
+                git 'https://github.com/Kenozakesy/SOP3.git'
             }     
         }
         stage('test') {
