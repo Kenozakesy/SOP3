@@ -8,12 +8,7 @@ pipeline {
         }
         stage('build') {
             steps {
-                withMaven(maven : 'maven_3_5_0') {
-                    sh 'mvn clean compile'
-                }
-                // step() {
-                //     sh 'mvn --version'
-                // }
+                sh 'mvn --version'
             }
          
         }
