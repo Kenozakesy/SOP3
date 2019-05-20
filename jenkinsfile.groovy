@@ -8,7 +8,7 @@ pipeline {
         }
         stage('build') {
             steps {
-                git url: 'https://github.com/Kenozakesy/SOP3'
+                sh 'printenv'
             }     
         }
         stage('test') {
