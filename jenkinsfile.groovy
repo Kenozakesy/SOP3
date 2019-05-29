@@ -1,19 +1,14 @@
 pipeline {
     agent { docker { image 'maven:3.3.3' } }
     stages {
-        stage('Ok') {
+        stage('BUILD') {
             steps {
-                echo "OK"
-            }
-        }
-        stage('build') {
-            steps {
-                git 'https://github.com/Kenozakesy/SOP3.git'
+                sh 'mvn -B -DskipTests install package'
             }     
         }
-        stage('test') {
+        stage('UNITTEST') {
             steps {
-                echo 'test'
+                sh 'mvn test'
             }
         }       
     }
